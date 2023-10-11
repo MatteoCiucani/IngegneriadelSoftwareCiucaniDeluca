@@ -13,6 +13,45 @@ public class RoomBooking {
         this.checkout = checkout;
     }
 
+    public int getReservationNumber() {
+        return reservationNumber;
+    }
+
+    public LocalDateTime getStartDate() {
+        return startDate;
+    }
+
+    public int getDurationInDay() {
+        return durationInDay;
+    }
+
+    public LocalDateTime getCheckin() {
+        return checkin;
+    }
+
+    public LocalDateTime getCheckout() {
+        return checkout;
+    }
+
+    public void setReservationNumber(int reservationNumber) {
+        this.reservationNumber = reservationNumber;
+    }
+
+    public void setStartDate(LocalDateTime startDate) {
+        this.startDate = startDate;
+    }
+
+    public void setDurationInDay(int durationInDay) {
+        this.durationInDay = durationInDay;
+    }
+
+    public void setCheckin(LocalDateTime checkin) {
+        this.checkin = checkin;
+    }
+
+    public void setCheckout(LocalDateTime checkout) {
+        this.checkout = checkout;
+    }
 
 
 }
