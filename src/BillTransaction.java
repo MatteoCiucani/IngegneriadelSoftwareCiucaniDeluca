@@ -1,10 +1,10 @@
-import java.time.LocalTime;
+import java.time.LocalDateTime;
 public class BillTransaction {
-    public BillTransaction(LocalTime creationDate, double amount) {
+    public BillTransaction(LocalDateTime creationDate, double amount) {
         this.creationDate = creationDate;
         this.amount = amount;
     }
 
-    private LocalTime creationDate;
+    private LocalDateTime creationDate;
     private double amount;
 }

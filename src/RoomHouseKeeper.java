@@ -1,13 +1,13 @@
-import java.time.LocalTime;
+import java.time.LocalDateTime;
 public class RoomHouseKeeper {
-    public RoomHouseKeeper(String description, LocalTime startDateTime, int duration) {
+    public RoomHouseKeeper(String description, LocalDateTime startDateTime, int duration) {
         this.description = description;
         this.startDateTime = startDateTime;
         this.duration = duration;
     }
 
     private String description;
-    private LocalTime startDateTime;
+    private LocalDateTime startDateTime;
     private int duration;
 
 }

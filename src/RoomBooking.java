@@ -1,6 +1,11 @@
-import java.time.LocalTime;
+import java.time.LocalDateTime;
 public class RoomBooking {
-    public RoomBooking(int reservationNumber, LocalTime startDate, int durationInDay, LocalTime checkin, LocalTime checkout) {
+    private int reservationNumber;
+    private LocalDateTime startDate;
+    private int durationInDay;
+    private LocalDateTime checkin;
+    private LocalDateTime checkout;
+    public RoomBooking(int reservationNumber, LocalDateTime startDate, int durationInDay, LocalDateTime checkin, LocalDateTime checkout) {
         this.reservationNumber = reservationNumber;
         this.startDate = startDate;
         this.durationInDay = durationInDay;
@@ -8,10 +13,6 @@ public class RoomBooking {
         this.checkout = checkout;
     }
 
-    private int reservationNumber;
-    private LocalTime startDate;
-    private int durationInDay;
-    private LocalTime checkin;
-    private LocalTime checkout;
+
 
 }
