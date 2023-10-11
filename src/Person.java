@@ -14,5 +14,4 @@ public class Person {
     private String gender;
     private AccountType accountType;
 
-
 }

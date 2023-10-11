@@ -41,4 +41,8 @@ public class Room {
     public void setBookingPrice(double bookingPrice) {
         this.bookingPrice = bookingPrice;
     }
+
+    public boolean isAvailable(){
+        return roomStatus == RoomStatus.Available;
+    }
 }
